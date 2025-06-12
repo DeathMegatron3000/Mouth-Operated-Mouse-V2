@@ -27,14 +27,12 @@ This project creates a mouth-operated mouse combining a pressure sensor for sip/
 
 ## Components
 
-1.  **Arduino Leonardo** (~$25 USD)
+1.  **Arduino Leonardo** (~$5 USD)
     *   Replaces Arduino Uno for direct HID capabilities.
-2.  **Pressure Sensor** - Options include:
-    *   MPXV7002DP (~$20 USD) - Specifically designed for sip/puff applications
-    *   Adafruit MPRLS Ported Pressure Sensor Breakout (~$15 USD)
-    *   MPX5010DP (~$10-15 USD) - More affordable alternative
+2.  **MPXV7002DP** (~$20 USD)
+    *    - Specifically designed for sip/puff applications
 3.  **Joystick Module**
-    *   Analog Thumb Joystick Module (~$5-10 USD)
+    *   Analog Thumb Joystick Module (~$2 USD)
 4.  **Tubing and Mouthpiece:**
     *   Food-grade silicone tubing (~$5 USD) - 1/8" inner diameter
     *   Plastic mouthpiece (custom-made or adapted)
@@ -44,7 +42,7 @@ This project creates a mouth-operated mouse combining a pressure sensor for sip/
     *   USB cable for Arduino (~$3-5 USD)
     *   Small project box/enclosure (~$5-10 USD)
 
-**Estimated Total Cost:** Approximately $60-80 USD
+**Estimated Total Cost:** Approximately $40 USD
 
 ## Setup Instructions
 
@@ -52,7 +50,7 @@ This project creates a mouth-operated mouse combining a pressure sensor for sip/
 
 Follow these basic circuit connections:
 
-*   **Pressure Sensor (MPXV7002DP or similar) Connections:**
+*   **Pressure Sensor (MPXV7002DP) Connections:**
     *   GND pin → Arduino GND
     *   +5V pin → Arduino 5V
     *   Analog output pin → Arduino A0
